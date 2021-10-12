@@ -1,6 +1,7 @@
 # pvrnn_sa
-# PyTorch code about PV-RNN (python)
-# The folder structure is below.  
+PyTorch code about PV-RNN (python)
+
+The folder structure is below.  
 
 1. “training/“  
   –”networks/”: Some python codes defining PV-RNN structures and functions (e.g., initialization, forward generation)  
