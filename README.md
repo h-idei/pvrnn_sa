@@ -12,7 +12,6 @@ As needed, please install python packages such as matplotlib, glob, numpy, yaml,
 The installs may take no more than half-hour.
 
 3. Demo and Instructions  
-
   The folder structure is below. 
 
 “training/“  
