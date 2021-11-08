@@ -40,9 +40,16 @@ The installs may take no more than half-hour.
         ・“generate*.npy”, “model*.npy”: Trained parameters read by “example_of_error_regression.py” 
 
 3-1. Learning experiment (It may take about one day to train one neural network.)
+        
         cd /training/example/
+        
         python example_of_training_rnn_part.py
+        
 3-2. Test experiment (One trial may take about 10 minutes.)
+        
         cd /test/example/
+        
+        (Before running test trial, you have to copy “generate_00200000.npy” and “model_00200000.pth” (learning results) into "/test/example/")
+        
         python example_of_error_regression.py
-         (Before running test trial, you have to copy “generate_00200000.npy” and “model_00200000.pth” (learning results) into "/test/example/")
+         
