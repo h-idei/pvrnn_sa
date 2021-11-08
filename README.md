@@ -2,13 +2,13 @@
 PyTorch code about PV-RNN (python)
 1. System requirements
 
-  -OS: Ubuntu18
+    -OS: Ubuntu18
 
-  -Python3.7
+    -Python3.7
 
-  -Pytorch (1.7)
+    -Pytorch (1.7)
 
-  -Computer platform: CPU
+    -Computer platform: CPU
   
 2. Installation guide
   
