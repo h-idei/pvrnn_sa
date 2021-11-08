@@ -26,7 +26,7 @@ The installs may take no more than half-hour.
         ・“example_of_training_rnn_part.py”: Main code for running program  
         ・“network_config.yaml”: Hyperparameter setting  
         ・“result_training/”, “trained_model/”: Results are saved here  
-        ・“target/”: Target data (training data) is placed here (target0000.txt ~ target0023: Self-produced condition, target0024.txt ~ target0047: Externally produced condition)
+        ・“target/”: Target data is placed here (target0000.txt ~ target0023: Self-produced condition, target0024.txt ~ target0047: Externally produced condition)
         ・“dataset.py”, “utilities.py”: Some supplemental functions read by “example_of_training_rnn_part.py”  
     
 “test/”  
