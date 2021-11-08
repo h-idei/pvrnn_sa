@@ -25,7 +25,7 @@ The installs may take no more than half-hour.
     –“example/”: Codes for setting network hyperparameters and executing program (training).  
         ・“example_of_training_rnn_part.py”: Main code for running program  
         ・“network_config.yaml”: Hyperparameter setting  
-        ・(“result_training/”, “trained_model/”): Results are saved here  
+        ・“result_training/”, “trained_model/”: Results are saved here  
         ・“target/”: Target data (training data) is placed here  
         ・“dataset.py”, “utilities.py”: Some supplemental functions read by “example_of_training_rnn_part.py”  
     
@@ -34,7 +34,7 @@ The installs may take no more than half-hour.
     –“example/”: Codes for setting network parameters and executing program (online inference test).  
         ・“example_of_error_regression.py”: Main code for running program  
         ・“network_config.yaml”: Hyperparameter setting  
-        ・(“result_ER/”): Results are saved here  
+        ・“result_ER/”: Results are saved here  
         ・“target/”: Target data (test data) is placed here  
         ・“error_regression.py”, “dataset.py”, “utilities.py”: Some supplemental functions read by “example_of_error_regression.py”  
         ・“generate*.npy”, “model*.npy”: Trained parameters read by “example_of_error_regression.py” 
@@ -42,14 +42,13 @@ The installs may take no more than half-hour.
 3-1. Learning experiment (It may take about one day to train one neural network.)
         
         cd /training/example/
-        
         python example_of_training_rnn_part.py
         
 3-2. Test experiment (One trial may take about 10 minutes.)
         
+        # (Before running test trial, you have to copy “generate_00200000.npy” and “model_00200000.pth” (learning results) into "/test/example/")
+        cp /training/example/result_training/generate_00200000.npy /test/example/
+        cp /training/example/trained_model/model_00200000.pth /test/example/
         cd /test/example/
-        
-        (Before running test trial, you have to copy “generate_00200000.npy” and “model_00200000.pth” (learning results) into "/test/example/")
-        
         python example_of_error_regression.py
          
