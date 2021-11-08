@@ -46,7 +46,7 @@ The installs may take no more than half-hour.
         
 3-2. Test experiment (One trial may take about 10 minutes.)
         
-        # (Before running test trial, you have to copy “generate_00200000.npy” and “model_00200000.pth” (learning results) into "/test/example/")
+        #Before running test trial, you have to copy “generate_00200000.npy” and “model_00200000.pth” (learning results) into "/test/example/"
         cp /training/example/result_training/generate_00200000.npy /test/example/
         cp /training/example/trained_model/model_00200000.pth /test/example/
         cd /test/example/
