@@ -33,6 +33,7 @@ The installs may take no more than half-hour.
         ・“error_regression.py”, “dataset.py”, “utilities.py”: Some supplemental functions read by “example_of_error_regression.py”  
         ・“generate*.npy”, “model*.npy”: Trained parameters read by “example_of_error_regression.py” 
 
+
 3-1. Learning experiment (It may take about one day to train one neural network.)
         
         cd /training/example/
