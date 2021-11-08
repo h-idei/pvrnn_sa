@@ -1,23 +1,18 @@
 # pvrnn_sa
 PyTorch code about PV-RNN (python)
-1. System requirements (tested environment)
-
-    -OS: Ubuntu18
-
-    -Python3.7
-
-    -Pytorch (1.7)
-
-    -Computer platform: CPU
+1. System requirements (tested environment)  
+    -OS: Ubuntu18  
+    -Python3.7  
+    -Pytorch (1.7)  
+    -Computer platform: CPU  
   
-2. Installation guide
-  
+2. Installation guide  
   If you have established Python environment, you may only have to install Pytorch according to instructions on the official website (https://pytorch.org/).
 As needed, please install python packages such as matplotlib, glob, numpy, yaml, os, sys, time, and seaborn.
 The installs may take no more than half-hour.
 
-3. Demo and Instructions
-  
+3. Demo and Instructions  
+
   The folder structure is below. 
 
 “training/“  
@@ -26,7 +21,7 @@ The installs may take no more than half-hour.
         ・“example_of_training_rnn_part.py”: Main code for running program  
         ・“network_config.yaml”: Hyperparameter setting  
         ・“result_training/”, “trained_model/”: Results are saved here  
-        ・“target/”: Target data is placed here  
+        ・“target/”: Target data is placed here (target0000.txt ~ target0023: Self-produced condition, target0024.txt ~ target0047: Externally produced condition)  
         ・“dataset.py”, “utilities.py”: Some supplemental functions read by “example_of_training_rnn_part.py”  
     
 “test/”  
