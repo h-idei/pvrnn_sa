@@ -43,12 +43,14 @@ The installs may take no more than half-hour.
         
         cd /training/example/
         python example_of_training_rnn_part.py
+        #Trained model and reproduced timeseries will be saved every 5000 learning epoch in "/training/example/trained_model/" and "/training/example/result_training/", respectively.
         
-3-2. Test experiment (One trial may take about 10 minutes.)
+3-2. Test experiment (8 trials by one neural network may take about one and a half hours.)
         
         #Before running test trial, you have to copy “generate_00200000.npy” and “model_00200000.pth” (learning results) into "/test/example/"
         cp /training/example/result_training/generate_00200000.npy /test/example/
         cp /training/example/trained_model/model_00200000.pth /test/example/
         cd /test/example/
         python example_of_error_regression.py
+        #Timeseries will be saved under “/test/example/result_ER/sit01/seq1 ~ seq8” for each trial
          
