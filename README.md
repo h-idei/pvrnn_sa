@@ -1,6 +1,6 @@
 # pvrnn_sa
 PyTorch code about PV-RNN (python)
-1. System requirements
+1. System requirements (tested environment)
 
     -OS: Ubuntu18
 
@@ -52,5 +52,5 @@ The installs may take no more than half-hour.
         cp /training/example/trained_model/model_00200000.pth /test/example/
         cd /test/example/
         python example_of_error_regression.py
-        #Timeseries will be saved under “/test/example/result_ER/sit01/seq1 ~ seq8” for each trial
+        #Timeseries will be saved under “/test/example/result_ER/sit01/seq01 ~ seq08” for each trial
          
