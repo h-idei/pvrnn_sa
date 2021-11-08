@@ -16,7 +16,7 @@ PyTorch code about PV-RNN (python)
 As needed, please install python packages such as matplotlib, glob, numpy, yaml, os, sys, time, and seaborn.
 The installs may take no more than half-hour.
 
-3. Demo
+3. Demo and Instructions
   
   The folder structure is below. 
 
