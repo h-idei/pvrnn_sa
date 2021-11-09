@@ -7,7 +7,7 @@ PyTorch code about PV-RNN (python)
   
 2. Installation guide  
   If you have established Python environment, you may only have to install Pytorch according to instructions on the official website (https://pytorch.org/).
-As needed, please install python packages such as matplotlib, glob, numpy, yaml, os, sys, time, and seaborn.
+As needed, please install python packages such as matplotlib, glob, numpy, yaml, os, sys, and time.
 The installs may take no longer than half an hour.
 
 3. Demo and Instructions  
