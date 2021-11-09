@@ -24,7 +24,7 @@ params = {"backend": "pdf",
           "savefig.facecolor": "1.0"}
 pylab.rcParams.update(params)
 
-FOLDERNAME_GENERATE = "./result_ER/switch_StoOtoS/seed0010/lr0.1w15ite10" #
+FOLDERNAME_GENERATE = "./result_ER/sit01/seq01/ite050/window010/lr0090/"
 SEQUENCE_INDEX = "0"
 EPOCH = "0"
 SLICE = 1
