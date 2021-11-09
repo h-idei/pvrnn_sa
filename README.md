@@ -1,8 +1,8 @@
 # pvrnn_sa
 PyTorch code about PV-RNN (python)
 1. System requirements (tested environment)  
-    -OS: Ubuntu18.04  
-    -Python3.7  
+    -OS: Ubuntu (18.04)  
+    -Python (3.7.10)  
     -Pytorch (1.8.1+cpu) 
   
 2. Installation guide  
