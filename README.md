@@ -44,7 +44,7 @@ The installs may take no longer than half an hour.
         
 3-2. Test experiment (8 trials by one neural network may take about one hour.)
         
-        #Before running test trial, you have to copy “model_00200000.pth” and “generate_00200000.npy” (learning results) into "/test/example/"
+        #You have to copy “model_00200000.pth” and “generate_00200000.npy” (learning results) into "/test/example/"
         #, although I put an example of them used in the experiment by default.
         #If you want to set a learning result other than the defalt files,
         cp /training/example/trained_model/model_00200000.pth /test/example/
