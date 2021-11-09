@@ -54,6 +54,7 @@ The installs may take no longer than half an hour.
         python example_of_error_regression.py
         #Timeseries for each trial will be saved in “/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01"~"seq08", corresponding to different trials).
         
-        #The following command will generate figure of timeseries for each trial in “/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01"~"seq08").
+        #The following command will generate figure of timeseries for each trial in
+        #“/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01"~"seq08").
         python plot_timeseries.py
          
