@@ -9,7 +9,7 @@ PyTorch code about PV-RNN (python)
 2. Installation guide  
   If you have established Python environment, you may only have to install Pytorch according to instructions on the official website (https://pytorch.org/).
 As needed, please install python packages such as matplotlib, glob, numpy, yaml, os, sys, time, and seaborn.
-The installs may take no more than half-hour.
+The installs may take no longer than half an hour.
 
 3. Demo and Instructions  
   The folder structure is below. 
@@ -47,5 +47,8 @@ The installs may take no more than half-hour.
         cp /training/example/trained_model/model_00200000.pth /test/example/
         cd /test/example/
         python example_of_error_regression.py
-        #Timeseries will be saved under “/test/example/result_ER/sit01/seq01 ~ seq08” for each trial
+        #Timeseries for each trial will be saved under “/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01~seq08" corresponding to different trials).
+        
+        #The following command will generate figure of timeseries for each trial under “/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01~seq08").
+        python plot_timeseries
          
