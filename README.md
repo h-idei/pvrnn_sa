@@ -1,5 +1,5 @@
 # pvrnn_sa
-PyTorch code about PV-RNN (python)
+PyTorch code about predictive-coding-inspired variational RNN model (PV-RNN)
 1. System requirements (tested environment)  
     -OS: Ubuntu (18.04)  
     -Python (3.7.10)  
