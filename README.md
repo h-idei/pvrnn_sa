@@ -45,17 +45,18 @@ The installs may take no longer than half an hour.
 3-2. Test experiment (8 trials by one neural network may take about one hour.)
         
         #You have to copy “model_00200000.pth” and “generate_00200000.npy” (learning results) into "/test/example/"
-        #, although I put an example of them used in the experiment by default.
+        #, although I put an example of the baseline model by default.
         #If you want to set a learning result other than the defalt files,
         cp /training/example/trained_model/model_00200000.pth /test/example/
         cp /training/example/result_training/generate_00200000.npy /test/example/
         
+        #Test trial run
         cd /test/example/
         python example_of_error_regression.py
         #Timeseries for each trial will be saved in “/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” 
         #("seq01" can be "seq01"~"seq08", corresponding to different trials).
         
-        #The following command will generate figure of timeseries for each trial in
+        #plot_timeseries.py can be used to generate figure of timeseries for each trial in
         #“/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01"~"seq08").
         python plot_timeseries.py
          
