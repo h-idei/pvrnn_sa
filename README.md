@@ -21,7 +21,7 @@ The installs may take no longer than half an hour.
         ・“result_training/”, “trained_model/”: Results are saved here  
         ・“target/”: Target data is placed here (target0000.txt ~ target0023: Self-produced condition, target0024.txt ~ target0047: Externally produced condition)  
         ・“dataset.py”, “utilities.py”: Some supplemental functions read by “example_of_training_rnn_part.py”  
-        ・"": Program for generating figure
+        ・"plot_development.py": Program for generating figure
     
 “test/”  
     –”networks/”: Some python codes defining PV-RNN structures and functions (e.g., initialization, forward generation)  
@@ -42,6 +42,10 @@ The installs may take no longer than half an hour.
         #Trained model and reproduced timeseries will be saved every 5000 learning epoch as 
         #"/training/example/trained_model/model_*.pth" and "/training/example/result_training/generate_*.npy".
         
+        #plot_development.py can be used to generate figures (pdf files) of developmental trajectory of sensory attenuation
+        #saved in “/training/example/”.
+        python plot_development.py
+        
 3-2. Test experiment (8 trials by one neural network may take about one hour.)
         
         #You have to copy “model_00200000.pth” and “generate_00200000.npy” (learning results) into "/test/example/"
@@ -56,7 +60,7 @@ The installs may take no longer than half an hour.
         #Timeseries for each trial will be saved in “/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” 
         #("seq01" can be "seq01"~"seq08", corresponding to different trials).
         
-        #plot_timeseries.py can be used to generate figure of timeseries for each trial in
-        #“/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01"~"seq08").
+        #plot_timeseries.py can be used to generate figure (pdf file) of timeseries for each trial
+        #saved in “/test/example/result_ER/sit01/seq01/ite050/window010/lr0090/” ("seq01" can be "seq01"~"seq08").
         python plot_timeseries.py
          
