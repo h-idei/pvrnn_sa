@@ -50,7 +50,7 @@ The installs may take no longer than half an hour.
         
         #You have to copy “model_00200000.pth” and “generate_00200000.npy” (learning results) into "/test/example/"
         #, although I put an example of the baseline model by default.
-        #If you want to set a learning result other than the defalt files,
+        #If you want to set a trained model other than the defalt,
         cp /training/example/trained_model/model_00200000.pth /test/example/
         cp /training/example/result_training/generate_00200000.npy /test/example/
         
