@@ -35,7 +35,7 @@ The installs may take no longer than half an hour.
         ・"plot_timeseries.py": Program for generating figure
 
 
-3-1. Learning experiment (It may take about one day to train one neural network.)
+3-1. Learning experiment (It may take about one day and a half to train one neural network.)
         
         cd /training/example/
         python example_of_training_rnn_part.py
